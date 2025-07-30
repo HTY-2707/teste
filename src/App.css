@@ -40,3 +40,64 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/////////////////////////////////////////////////////////////////////////////
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background: #e0e0e0;
+  transition: background 0.3s;
+}
+
+.option:hover {
+  background: #d0d0d0;
+}
+
+.correct {
+  background: #a5d6a7 !important;
+}
+
+.wrong {
+  background: #ef9a9a !important;
+}
+
+.skip-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #90caf9;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
